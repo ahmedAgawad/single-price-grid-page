@@ -1,0 +1,135 @@
+/* Base styles & Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	height: 100%;
+	padding-left: 33px;
+	padding-right: 33px;
+	font-family: "Karla", sans-serif;
+	background-color: #e6eff6;
+}
+
+/* main */
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 215px 260px;
+	max-width: 635px;
+	margin: auto;
+	border-radius: 8px;
+	box-shadow: rgba(104, 108, 112, 0.267) 0px 8px 20px;
+}
+
+/* main -- join */
+main .join {
+	grid-column: 1 / 3;
+	grid-row: 1/2;
+	padding: 40px 67.5px 45px 40px;
+	border-radius: 8px 8px 0 0;
+	background-color: #ffffff;
+}
+
+.join h1 {
+	margin-bottom: 24.5px;
+	font-size: 1.5rem;
+	letter-spacing: -0.25px;
+	color: #17bbb6;
+}
+
+.join h2 {
+	margin-bottom: 13px;
+	font-size: 1.1rem;
+	color: #c1d320;
+}
+
+.join p {
+	font-size: 0.965rem;
+	font-weight: 500;
+	line-height: 1.625;
+	color: #b2b6c2;
+}
+
+/* main -- price */
+main .price {
+	padding: 41px 40px 40px 38.75px;
+	border-radius: 0 0 0 8px;
+	background-color: #2bb3b1;
+}
+
+.price h3 {
+	margin-bottom: 17px;
+	font-size: 1.125rem;
+	font-weight: 600;
+	color: #e6ffff;
+}
+
+.price .monthly-subscription {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+	font-weight: 300;
+	color: #83e2e1;
+}
+
+.monthly-subscription .price-monthly {
+	display: inline-block;
+	margin-right: 13px;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.price .price-access {
+	margin-bottom: 30px;
+	font-size: 0.975rem;
+	color: #d6fcff;
+}
+
+.price a {
+	display: inline-block;
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 5px;
+	font-size: 0.975rem;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: none;
+	color: #fcfdd3;
+	background-color: #bfdf32;
+	box-shadow: #0a998c 1px 5px 9px 1px;
+}
+
+/* main -- features */
+main .features {
+	padding: 40px 100px 40px 40px;
+	border-radius: 0 0 8px 0;
+	background-color: #4abebd;
+}
+
+.features h3 {
+	margin-bottom: 19px;
+	font-size: 1.125rem;
+	font-weight: 600;
+	color: #e5ffff;
+}
+
+.features ul {
+	font-size: 0.85rem;
+	font-weight: 300;
+	color: #bdf4f5;
+	list-style-type: none;
+}
+
+.features ul li {
+	line-height: 1.475;
+}
