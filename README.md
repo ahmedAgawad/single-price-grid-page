@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/ahmedAgawad/single-price-grid-page-FEM)
+- Live Site URL: [Live Project](https://single-price-grid-component-fem.netlify.app/)
 
 ## My process
 
