@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution page](https://github.com/ahmedAgawad/single-price-grid-page-FEM](https://www.frontendmentor.io/solutions/single-price-grid-component-using-pure-css-hclBWytADy)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/single-price-grid-component-using-pure-css-hclBWytADy)
 - Live Site URL: [Live Project](https://single-price-grid-component-fem.netlify.app/)
 
 ## My process
